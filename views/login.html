@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Login - Mercado Liebre</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <div id="top-header">
+            <img id="logo" src="./images/logo-mercado-liebre.svg" alt="">
+            <form id="barra-busqueda" class="form" action='#' method="GET">
+                <input type="search" class="input-busqueda" placeholder="Buscar productos">
+                <button type="button"><i class="fa fa-search"></i></button>
+            </form>
+
+            <p id="mensaje-tarjeta">
+                <i class="fas fa-hand-holding-usd"></i>
+                Comprá en cuotas y sin tarjeta de crédito
+            </p>
+        </div>
+        <div id="site">
+            <ul class="left-navbar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+
+            <ul class="right-navbar">
+                <li><a href="register.html">Crea tu cuenta
+                        <i class="far fa-id-card"></i></a></li>
+                <li><a href="login.html">Ingresa
+                        <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis compras
+                        <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </div>
+
+
+        </div>
+
+        <div id="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+
+    </header>
+    <main>
+        <img src="./images/img-home-banner.jpg">
+        
+        <form action="" method="get" class="login">
+            <div>
+                <p class="login-title">Inicia sesion</p>
+            </div>
+            <div class="field">
+                <label>Nombre de usuario</label>
+                <input type="text">
+            </div>
+            <div class="field">
+                <label>Contraseña</label>
+                <input type="password" minlength="8" maxlength="8">
+            </div>
+            <button class="login-button" type="submit"><a href="/">Ingresar</a></button>
+        </form>
+    </main>
+
+    <footer>
+        <section class="top-footer">
+            <section class="beneficios">
+                <div class="icono-beneficios"><i class="far fa-credit-card"></i></div>
+                <h4>Pagá con tarjeta o en efectivo</h4>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                    puntos de pago. ¡Y siempre es seguro!</p>
+            </section>
+
+            <section class="beneficios">
+                <div class="icono-beneficios"><i class="fas fa-gift"></i></div>
+                <h4>Envío gratis desde $2.500</h4>
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos.</p>
+            </section>
+
+            <section class="beneficios">
+                <div class="icono-beneficios"><i class="fas fa-user-shield"></i></div>
+                <h4>Seguridad, de principio a fin</h4>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@.
+                </p>
+            </section>
+        </section>
+        <section id="copyright">
+            <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </section>
+
+
+    </footer>
+</body>
+
+</html>
